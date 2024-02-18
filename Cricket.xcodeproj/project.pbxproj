@@ -13,7 +13,7 @@
 		2D1EB6AF2B81D9F200A1A8E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D1EB6AE2B81D9F200A1A8E9 /* Assets.xcassets */; };
 		2D1EB6B22B81D9F200A1A8E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D1EB6B12B81D9F200A1A8E9 /* Preview Assets.xcassets */; };
 		2D1EB6BE2B8203D200A1A8E9 /* ScoreboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1EB6BD2B8203D200A1A8E9 /* ScoreboardView.swift */; };
-		2DA99CD12B8238C9004E6FF3 /* IndiaInnings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA99CD02B8238C9004E6FF3 /* IndiaInnings.swift */; };
+		2DA99CD52B824BAD004E6FF3 /* BowlingOrnament.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA99CD42B824BAD004E6FF3 /* BowlingOrnament.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		2D1EB6B12B81D9F200A1A8E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2D1EB6B32B81D9F200A1A8E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D1EB6BD2B8203D200A1A8E9 /* ScoreboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreboardView.swift; sourceTree = "<group>"; };
-		2DA99CD02B8238C9004E6FF3 /* IndiaInnings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndiaInnings.swift; sourceTree = "<group>"; };
+		2DA99CD42B824BAD004E6FF3 /* BowlingOrnament.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BowlingOrnament.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,13 +60,13 @@
 		2D1EB6A52B81D9F100A1A8E9 /* Cricket */ = {
 			isa = PBXGroup;
 			children = (
-				2DA99CCF2B8238B0004E6FF3 /* Scorecard */,
+				2DA99CD32B824B91004E6FF3 /* Components */,
+				2DA99CD22B824AA0004E6FF3 /* Views */,
 				2D1EB6AA2B81D9F100A1A8E9 /* CricketApp.swift */,
 				2D1EB6AC2B81D9F100A1A8E9 /* ContentView.swift */,
 				2D1EB6AE2B81D9F200A1A8E9 /* Assets.xcassets */,
 				2D1EB6B32B81D9F200A1A8E9 /* Info.plist */,
 				2D1EB6B02B81D9F200A1A8E9 /* Preview Content */,
-				2D1EB6BD2B8203D200A1A8E9 /* ScoreboardView.swift */,
 			);
 			path = Cricket;
 			sourceTree = "<group>";
@@ -87,12 +87,20 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		2DA99CCF2B8238B0004E6FF3 /* Scorecard */ = {
+		2DA99CD22B824AA0004E6FF3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				2DA99CD02B8238C9004E6FF3 /* IndiaInnings.swift */,
+				2D1EB6BD2B8203D200A1A8E9 /* ScoreboardView.swift */,
 			);
-			path = Scorecard;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2DA99CD32B824B91004E6FF3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2DA99CD42B824BAD004E6FF3 /* BowlingOrnament.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,9 +176,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DA99CD12B8238C9004E6FF3 /* IndiaInnings.swift in Sources */,
 				2D1EB6AD2B81D9F100A1A8E9 /* ContentView.swift in Sources */,
 				2D1EB6AB2B81D9F100A1A8E9 /* CricketApp.swift in Sources */,
+				2DA99CD52B824BAD004E6FF3 /* BowlingOrnament.swift in Sources */,
 				2D1EB6BE2B8203D200A1A8E9 /* ScoreboardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

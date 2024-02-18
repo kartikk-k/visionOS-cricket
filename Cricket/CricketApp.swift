@@ -22,19 +22,8 @@ struct CricketApp: App {
         WindowGroup("Scoreboard", id: "scoreboard") {
             ScoreboardView()
         }.defaultSize(width:540, height: 820)
-            .windowResizabilityContentSize()
-        
-        
-        
+                
+    
     }
 }
 
-extension Scene {
-    func windowResizabilityContentSize() -> some Scene {
-        if #available(macOS 13.0, *) {
-            return windowResizability(.contentMinSize)
-        } else {
-            return self
-        }
-    }
-}
