@@ -10,12 +10,17 @@ import RealityKit
 import RealityKitContent
 
 struct ContentView: View {
+    @Environment(\.openWindow) private var openWindow
+    
     var body: some View {
         VStack {
-            Model3D(named: "Scene", bundle: realityKitContentBundle)
-                .padding(.bottom, 50)
+//            Model3D(named: "Scene", bundle: realityKitContentBundle)
+//                .padding(.bottom, 50)
 
-            Text("Hello, world!")
+            Button("Open Scoreboard") {
+                openWindow(id: "scoreboard")
+            }
+            
         }
         .padding()
     }
@@ -24,3 +29,4 @@ struct ContentView: View {
 #Preview(windowStyle: .automatic) {
     ContentView()
 }
+
