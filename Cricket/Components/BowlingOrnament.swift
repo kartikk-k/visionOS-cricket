@@ -38,7 +38,14 @@ struct BowlingOrnament: View {
                 Delivery(type: .four)
                 Delivery(type: .pending)
             }
-        
+            
+            Divider()
+            
+            HStack{
+                Text("Economy")
+                Spacer()
+                Text("4.2")
+            }.opacity(0.6)
         }
     }
 }

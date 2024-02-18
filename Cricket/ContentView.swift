@@ -36,12 +36,20 @@ struct ContentView: View {
             }
             
         }.padding()
-            .ornament(visibility: .visible, attachmentAnchor: .scene(.bottomTrailing), contentAlignment: .top){
-                BowlingOrnament()
-                    .padding(.horizontal, 20)
-                    .padding(.vertical, 20)
-                    .glassBackgroundEffect()
-            }
+        .ornament(visibility: .visible, attachmentAnchor: .scene(.bottomTrailing), contentAlignment: .top){
+            BowlingOrnament()
+                .padding(.horizontal, 20)
+                .padding(.vertical, 20)
+                .frame(width: 350, height: 200)
+                .glassBackgroundEffect()
+            
+        }.ornament(visibility: .visible, attachmentAnchor: .scene(.bottomLeading), contentAlignment: .top){
+            BattingOrnament()
+                .padding(.horizontal, 20)
+                .padding(.vertical, 20)
+                .frame(width: 350, height: 200)
+                .glassBackgroundEffect()
+        }
     }
 }
 
