@@ -15,6 +15,7 @@
 		2D1EB6BE2B8203D200A1A8E9 /* ScoreboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1EB6BD2B8203D200A1A8E9 /* ScoreboardView.swift */; };
 		2DA99CD52B824BAD004E6FF3 /* BowlingOrnament.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA99CD42B824BAD004E6FF3 /* BowlingOrnament.swift */; };
 		2DA99CD72B827B4E004E6FF3 /* BattingOrnament.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA99CD62B827B4E004E6FF3 /* BattingOrnament.swift */; };
+		2DA99CD92B8284E8004E6FF3 /* ScoreOrnament.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA99CD82B8284E8004E6FF3 /* ScoreOrnament.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		2D1EB6BD2B8203D200A1A8E9 /* ScoreboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreboardView.swift; sourceTree = "<group>"; };
 		2DA99CD42B824BAD004E6FF3 /* BowlingOrnament.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BowlingOrnament.swift; sourceTree = "<group>"; };
 		2DA99CD62B827B4E004E6FF3 /* BattingOrnament.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattingOrnament.swift; sourceTree = "<group>"; };
+		2DA99CD82B8284E8004E6FF3 /* ScoreOrnament.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreOrnament.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			children = (
 				2DA99CD42B824BAD004E6FF3 /* BowlingOrnament.swift */,
 				2DA99CD62B827B4E004E6FF3 /* BattingOrnament.swift */,
+				2DA99CD82B8284E8004E6FF3 /* ScoreOrnament.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 			files = (
 				2D1EB6AD2B81D9F100A1A8E9 /* ContentView.swift in Sources */,
 				2DA99CD72B827B4E004E6FF3 /* BattingOrnament.swift in Sources */,
+				2DA99CD92B8284E8004E6FF3 /* ScoreOrnament.swift in Sources */,
 				2D1EB6AB2B81D9F100A1A8E9 /* CricketApp.swift in Sources */,
 				2DA99CD52B824BAD004E6FF3 /* BowlingOrnament.swift in Sources */,
 				2D1EB6BE2B8203D200A1A8E9 /* ScoreboardView.swift in Sources */,

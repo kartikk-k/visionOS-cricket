@@ -49,6 +49,13 @@ struct ContentView: View {
                 .padding(.vertical, 20)
                 .frame(width: 350, height: 200)
                 .glassBackgroundEffect()
+            
+        }.ornament(visibility: .visible, attachmentAnchor: .scene(.bottom), contentAlignment: .top){
+            ScoreOrnament()
+                .padding(.horizontal, 20)
+                .padding(.vertical, 20)
+                .frame(width: 550, height: 200)
+                .glassBackgroundEffect()
         }
     }
 }
